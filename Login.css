@@ -31,7 +31,7 @@ body {
 }
 
 .loader-container img {
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
   animation: pulse 2s ease-in-out infinite;
 }
