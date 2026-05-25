@@ -24,12 +24,20 @@
 <body>
 
   <!-- LOADER -->
-<div class="loader-container" id="loader">
-  <img
-    src="Pictures/holiday.lk loading.png"
-    alt="travel loader"
-  />
-</div>
+  <div class="loader-container" id="loader" aria-live="polite" role="status" aria-label="Loading content">
+    <img
+      src="Pictures/holiday.lk loading.png"
+      alt="Holiday.lk logo"
+      class="loader-logo"
+    />
+    <div class="loader-title">Holiday.lk</div>
+
+    <div class="loader-dots" id="loader-dots" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
 
   <!-- MAIN CONTENT -->
 
